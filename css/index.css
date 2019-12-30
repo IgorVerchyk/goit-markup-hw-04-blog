@@ -1,0 +1,76 @@
+:root {
+  --main-color: #626262;
+  --accent-color: #03a9f4;
+  --imageback-color: #f2f2f2;
+  --category-color: #b4ad9e;
+  --main-font: 'Playfair Display', serif;
+  --category-font: 'Umbuntu', sans-serif;
+}
+html {
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+body {
+  font-size: 14px;
+  margin: 0;
+}
+
+/*menu*/
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+.menu .menu-category {
+  display: block;
+  padding-right: 56px;
+  padding-left: 56px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  color: var(--main-color);
+  line-height: 24px;
+  font-family: var(--main-font);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.menu .menu-category:hover,
+.menu .meny-category:focus {
+  color: var(--accent-color);
+}
+
+/*content*/
+
+.content .category {
+  font-size: 14px;
+  color: var(--category-color);
+  font-family: var(--category-font);
+  text-transform: uppercase;
+}
+.content .sectionhead {
+  font-size: 30px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+}
+.content .textcontent {
+  line-height: 24px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+}
+.button {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+  cursor: pointer;
+}
